@@ -1,0 +1,1102 @@
+body
+{
+    background: url('./bg.jpg') no-repeat;
+    background-size: cover;
+}
+h1
+{
+    color: white;
+    text-align: center;
+}
+.box1
+{
+    width: 500px;
+    background-color: white;
+    height: 500px;
+    position: relative;
+    left: 510px;
+    border-radius: 5px;
+}
+.box1 h1
+{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+}
+.box2
+{
+    width: 500px;
+    background-color: white;
+    height: 400px;
+    position: relative;
+    left: 510px;
+    border-radius: 5px;
+}
+.box2 h1
+{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+}
+p
+{
+    font: Satoshi-Variable, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    color: rgb(46,46,46);
+    position: relative;
+    left: 20px;
+}
+.span1
+{
+    position: relative;
+    left: 21px;
+}
+.input
+{
+    position: relative;
+    left: 60px;
+    width: 22rem;
+    height: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+#loginbtn
+{
+    position: relative;
+    left: 60px;
+    width: 23.5rem;
+    height: 2.5rem;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+#choose
+{
+    color: black;
+}
+#fgp
+{
+  text-decoration: none;
+  color: black;
+  position: relative;
+  left: 187px;
+}
+#newuser
+{
+    position: relative;
+    left: 130px;
+}
+#signup
+{
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+#create
+{
+    text-decoration: none;
+    color: white;
+}
+#submitbtn
+{
+    position: relative;
+    left: 60px;
+    width: 23.5rem;
+    height: 2.5rem;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;   
+}
+#successtoast
+{
+    display: none;
+    position: relative;
+    left: 80px;
+    color: green;
+}
+#failuretoast
+{
+    display: none;
+    position: relative;
+    left: 95px;
+    color: red;
+}
+.categorybox
+{
+    width: 700px;
+    background-color: white;
+    height: 550px;
+    border-radius: 5px;
+    position: relative;
+    left: 420px;
+}
+.catlist
+{
+    width: 190px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+.catlist a
+{
+    text-decoration: none;
+}
+#catlist2
+{
+    position: relative;
+    left: 390px;
+    bottom: 470px;
+}
+.catlist1
+{
+    width: 190px;
+    display: flex;
+    left: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+.catlist1 a
+{
+    text-decoration: none;
+}
+.question
+{
+    width: 630px;
+    background-color: white;
+    height: 500px;
+    position: relative;
+    padding: 15px;
+    left: 450px;
+    border-radius: 5px;
+}
+.question h1
+{
+    text-align: center;
+    color: black;
+}
+#ques
+{
+    color: black;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+#label
+{
+    position: relative;
+    left:50px;
+}
+#ans
+{
+    position: relative;
+    left: 50px;
+    height: 2rem;
+    width: 500px;
+    border-radius: 5px;
+}
+#submit
+{
+    position: relative;
+    left: 195px;
+    top: 20px;
+    width: 200px;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+}
+#successtoasta
+{
+    display: none;
+    position: relative;
+    left: 128px;
+    top: 50px;
+    color: green;
+}
+#failuretoasta
+{
+    display: none;
+    position: relative;
+    left: 178px;
+    top: 50px;
+    color: red;
+}
+.result
+{
+    width: 600px;
+    background-color: white;
+    height: 1600px;
+    position: relative;
+    left: 475px;
+    display: none;
+    border-radius: 5px;   
+}
+.result h1
+{
+    position: relative;
+    left: 5px;
+    top: 20px;
+    color: red;
+}
+.result p
+{
+    border: 1px solid rgb(46,46,46);
+    border-radius: 5px;
+    width: 550px;
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+}
+#navigateChoose
+{
+    position: relative;
+    left: 193px;
+    bottom: 50px;
+    width: 200px;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+}
+@media screen and (min-width:300px) and (max-width:325px)
+{
+    .box1
+    {
+        width: 300px;
+        height: 590px;
+        position: relative;
+        left: 1px;
+        padding: 3px;
+    }
+    .box2
+    {
+        width: 300px;
+        height: 400px;
+        position: relative;
+        left: 3px;
+    }
+    p
+    {
+        position: relative;
+        left: 8px;
+    }
+    .span1
+    {
+        position: relative;
+        left: 1px;
+    }
+    .input
+    {
+        position: relative;
+        left: 9px;
+        width: 16rem;
+    }
+    #loginbtn
+    {
+        position: relative;
+        left: 9px;
+        width: 17.5rem;
+    }
+    #newuser
+    {
+        position: relative;
+        left: 8px;
+    }
+    #submitbtn
+    {
+        position: relative;
+        left: 8px;
+        width: 17.5rem;
+    }
+    #successtoast
+    {
+        display: none;
+        position: relative;
+        left: 35px;
+        font-size: 1rem;
+    }
+    #failuretoast
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        font-size: 1rem;
+    }
+    .categorybox
+    {
+        width: 300px;
+        height: 950px;
+        position: relative;
+        left: 3px;
+    }
+    .catlist
+    {
+        width: 150px;
+        position: relative;
+        left: 75px;
+        font-size: 0.7rem;
+    }
+    #catlist2
+    {
+        position: relative;
+        top: 5px;
+        left: 75px;
+        bottom: 20px;
+    }
+    .catlist1
+    {
+        width: 150px;
+        left: 8px;
+        font-size: 0.7rem;
+        padding-left: 23px;
+    }
+    .question
+    {
+        width: 270px;
+        height: 500px;
+        position: relative;
+        left: 3px;
+        border-radius: 5px;
+    }
+    #ques
+    {
+        font-size: 0.7rem;
+    }
+    #label
+    {
+        position: relative;
+        left:6px;
+    }
+    #ans
+    {
+        position: relative;
+        left: 8px;
+        height: 2rem;
+        width: 260px;
+    }
+    #submit
+    {
+        position: relative;
+        left: 8px;
+        width: 265px;
+    }
+    .result
+    {
+        width: 300px;
+        height: 1870px;
+        position: relative;
+        left: 3px; 
+    }
+    .result p
+    {
+        width: 260px;
+        padding: 10px;
+        position: relative;
+        bottom: 30px;
+    }
+    #navigateChoose
+    {
+        position: relative;
+        left: 50px;
+        width: 200px;
+    }
+    #successtoasta
+    {
+        display: none;
+        position: relative;
+        left: 25px;
+        top: 50px;
+    }
+    #failuretoasta
+    {
+        display: none;
+        position: relative;
+        left: 25px;
+        top: 50px;
+    }
+}
+@media screen and (min-width:330px) and (max-width:365px)
+{
+    .box1
+    {
+        width: 330px;
+        height: 570px;
+        position: relative;
+        bottom: 20px;
+        left: 3px;
+        padding: 5px;
+    }
+    .box2
+    {
+        width: 335px;
+        height: 570px;
+        position: relative;
+        left: 3px;
+        padding: 5px;
+    }
+    p
+    {
+        position: relative;
+        left: 10px;
+    }
+    .span1
+    {
+        position: relative;
+        left: 6px;
+    }
+    .input
+    {
+        position: relative;
+        left: 10px;
+        width: 18rem;
+    }
+    #loginbtn
+    {
+        position: relative;
+        left: 9px;
+        width: 19.5rem;
+    }
+    #newuser
+    {
+        position: relative;
+        left: 25px;
+    }
+    #submitbtn
+    {
+        position: relative;
+        left: 8px;
+        width: 19.7rem;
+    }
+    #successtoast
+    {
+        display: none;
+        position: relative;
+        left: 50px;
+        font-size: 1rem;
+    }
+    #failuretoast
+    {
+        display: none;
+        position: relative;
+        left: 50px;
+        font-size: 1rem;
+    }
+    .categorybox
+    {
+        width: 325px;
+        height: 950px;
+        position: relative;
+        left: 10px;
+    }
+    .catlist
+    {
+        width: 200px;
+        position: relative;
+        left: 65px;
+        font-size: 0.7rem;
+    }
+    #catlist2
+    {
+        position: relative;
+        top: 5px;
+        left: 65px;
+        bottom: 20px;
+    }
+    .catlist1
+    {
+        width: 200px;
+        left: 8px;
+        font-size: 0.7rem;
+        padding-left: 27px;
+    }
+    .question
+    {
+        width: 310px;
+        height: 550px;
+        position: relative;
+        left: 3px;
+        border-radius: 5px;
+    }
+    #ques
+    {
+        font-size: 1rem;
+    }
+    #label
+    {
+        position: relative;
+        left:6px;
+    }
+    #ans
+    {
+        position: relative;
+        left: 8px;
+        height: 2rem;
+        width: 280px;
+    }
+    #submit
+    {
+        position: relative;
+        left: 8px;
+        width: 285px;
+    }
+    .result
+    {
+        width: 325px;
+        height: 1890px;
+        position: relative;
+        left: 10px; 
+    }
+    .result p
+    {
+        width: 260px;
+        padding: 10px;
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+    }
+    #navigateChoose
+    {
+        position: relative;
+        left: 60px;
+        bottom: 10px;
+        width: 200px;
+    }
+    #successtoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    #failuretoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+}
+@media screen and (min-width:370px) and (max-width:399px)
+{
+    .box1
+    {
+        width: 330px;
+        height: 620px;
+        position: relative;
+        left: 18px;
+        bottom: 10px;
+        padding: 5px;
+    }
+    .box2
+    {
+        width: 335px;
+        height: 620px;
+        position: relative;
+        left: 15px;
+        bottom: 10px;
+        padding: 5px;
+    }
+    p
+    {
+        position: relative;
+        left: 10px;
+    }
+    .span1
+    {
+        position: relative;
+        left: 6px;
+        top: 5px;
+    }
+    .input
+    {
+        position: relative;
+        left: 10px;
+        top: 40px;
+        width: 18rem;
+    }
+    #loginbtn
+    {
+        position: relative;
+        left: 9px;
+        top: 40px;
+        width: 19.5rem;
+    }
+    #newuser
+    {
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+    #submitbtn
+    {
+        position: relative;
+        left: 8px;
+        top: 50px;
+        width: 19.7rem;
+    }
+    #successtoast
+    {
+        display: none;
+        position: relative;
+        left: 20px;
+        top: 40px;
+        font-size: 1.3rem;
+    }
+    #failuretoast
+    {
+        display: none;
+        position: relative;
+        left: 30px;
+        top: 40px;
+        font-size: 1.3rem;
+    }
+    .categorybox
+    {
+        width: 325px;
+        height: 950px;
+        position: relative;
+        left: 25px;
+    }
+    .catlist
+    {
+        width: 200px;
+        position: relative;
+        left: 65px;
+        font-size: 0.7rem;
+    }
+    #catlist2
+    {
+        position: relative;
+        top: 5px;
+        left: 65px;
+        bottom: 20px;
+    }
+    .catlist1
+    {
+        width: 200px;
+        left: 8px;
+        font-size: 0.7rem;
+        padding-left: 27px;
+    }
+    .question
+    {
+        width: 310px;
+        height: 640px;
+        position: relative;
+        left: 16px;
+        border-radius: 5px;
+    }
+    #ques
+    {
+        font-size: 1.5rem;
+    }
+    #label
+    {
+        position: relative;
+        left:6px;
+    }
+    #ans
+    {
+        position: relative;
+        left: 8px;
+        height: 2rem;
+        width: 280px;
+    }
+    #submit
+    {
+        position: relative;
+        left: 8px;
+        width: 285px;
+    }
+    .result
+    {
+        width: 325px;
+        height: 1890px;
+        position: relative;
+        left: 20px; 
+    }
+    .result p
+    {
+        width: 260px;
+        padding: 10px;
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+    }
+    #navigateChoose
+    {
+        position: relative;
+        left: 60px;
+        width: 200px;
+    }
+    #successtoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    #failuretoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+}
+@media screen and (min-width:399px) and (max-width:440px)
+{
+    .box1
+    {
+        width: 330px;
+        height: 690px;
+        position: relative;
+        left: 25px;
+        bottom: 5px;
+        padding: 5px;
+    }
+    .box2
+    {
+        width: 335px;
+        height: 690px;
+        position: relative;
+        left: 25px;
+        bottom: 10px;
+        padding: 5px;
+    }
+    p
+    {
+        position: relative;
+        left: 10px;
+    }
+    .span1
+    {
+        position: relative;
+        left: 6px;
+        top: 5px;
+    }
+    .input
+    {
+        position: relative;
+        left: 10px;
+        top: 20px;
+        height: 3rem;
+        width: 18rem;
+    }
+    #loginbtn
+    {
+        position: relative;
+        left: 9px;
+        top: 40px;
+        width: 19.5rem;
+    }
+    #newuser
+    {
+        position: relative;
+        top: 40px;
+        left: 25px;
+    }
+    #submitbtn
+    {
+        position: relative;
+        left: 8px;
+        top: 50px;
+        width: 19.7rem;
+    }
+    #successtoast
+    {
+        display: none;
+        position: relative;
+        left: 20px;
+        top: 40px;
+        font-size: 1.3rem;
+    }
+    #failuretoast
+    {
+        display: none;
+        position: relative;
+        left: 30px;
+        top: 40px;
+        font-size: 1.3rem;
+    }
+    .categorybox
+    {
+        width: 325px;
+        height: 950px;
+        position: relative;
+        left: 35px;
+    }
+    .catlist
+    {
+        width: 200px;
+        position: relative;
+        left: 65px;
+        font-size: 0.7rem;
+    }
+    #catlist2
+    {
+        position: relative;
+        top: 5px;
+        left: 65px;
+        bottom: 20px;
+    }
+    .catlist1
+    {
+        width: 200px;
+        left: 8px;
+        font-size: 0.7rem;
+        padding-left: 27px;
+    }
+    .question
+    {
+        width: 310px;
+        height: 710px;
+        position: relative;
+        left: 28px;
+        border-radius: 5px;
+    }
+    #ques
+    {
+        font-size: 1.5rem;
+    }
+    #label
+    {
+        position: relative;
+        left:6px;
+    }
+    #ans
+    {
+        position: relative;
+        left: 8px;
+        height: 3rem;
+        width: 280px;
+    }
+    #submit
+    {
+        position: relative;
+        left: 8px;
+        width: 285px;
+        height: 3rem;
+    }
+    .result
+    {
+        width: 325px;
+        height: 1890px;
+        position: relative;
+        left: 40px; 
+    }
+    .result p
+    {
+        width: 260px;
+        padding: 10px;
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+    }
+    #navigateChoose
+    {
+        position: relative;
+        left: 60px;
+        bottom: 40px;
+        height: 3rem;
+        width: 200px;
+    }
+    #successtoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    #failuretoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+}
+@media screen and (min-width:550px) and (max-width:770px)
+{
+    .box1
+    {
+        width: 500px;
+        position: relative;
+        left: 125px;   
+        top: 120px;
+    }
+    body
+    {
+        height: 1600px;
+    }
+    .box2
+    {
+        position: relative;
+        left: 125px;
+        top: 120px;
+    }
+    p
+    {
+        position: relative;
+        left: 10px;
+    }
+    .span1
+    {
+        position: relative;
+        left: 6px;
+        top: 5px;
+    }
+    /* #loginbtn
+    {
+        position: relative;
+        left: 9px;
+        top: 40px;
+        width: 19.5rem;
+    } */
+    #newuser
+    {
+        position: relative;
+        left: 100px;
+    }
+    /* #submitbtn
+    {
+        position: relative;
+        left: 8px;
+        top: 50px;
+        width: 19.7rem;
+    } */
+    #successtoast
+    {
+        display: none;
+        position: relative;
+        left: 80px;
+    }
+    #failuretoast
+    {
+        display: none;
+        position: relative;
+        left: 100px;
+    }
+    .categorybox
+    {
+        height: 1000px;
+        position: relative;
+        left: 25px;
+        top: 120px;
+    }
+    .catlist
+    {
+        position: relative;
+        left: 245px;
+        font-size: 0.7rem;
+    }
+    #catlist2
+    {
+        position: relative;
+        top: 10px;
+        left: 245px;
+        bottom: 20px;
+    } 
+    /* .catlist1
+    {
+        width: 200px;
+        left: 8px;
+        font-size: 0.7rem;
+        padding-left: 27px;
+    } */
+    .question
+    {
+        position: relative;
+        left: 42px;
+        top: 100px;
+        border-radius: 5px;
+    }
+    #ques
+    {
+        font-size: 1.5rem;
+    }
+    /* #label
+    {
+        position: relative;
+        left:6px;
+    } */
+    /* #ans
+    {
+        position: relative;
+        left: 8px;
+        height: 3rem;
+        width: 280px;
+    } */
+    /* #submit
+    {
+        position: relative;
+        left: 8px;
+        width: 285px;
+        height: 3rem;
+    } */
+    .result
+    {
+        height: 1500px;
+        position: relative;
+        left: 75px; 
+    }
+    /* .result p
+    {
+        width: 260px;
+        padding: 10px;
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+    } */
+    /* #navigateChoose
+    {
+        position: relative;
+        left: 60px;
+        bottom: 40px;
+        height: 3rem;
+        width: 200px;
+    } */
+    #successtoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+    #failuretoasta
+    {
+        display: none;
+        position: relative;
+        left: 40px;
+        top: 50px;
+    }
+}
+@media screen and (min-width:775px) and (max-width:835px)
+{
+
+}
+@media screen and (min-width:850px) and (max-width:900px)
+{
+
+}
+@media screen and (min-width:1000px) and (max-width:1290px)
+{
+
+}
+@media screen and (min-width: 1300px)
+{
+    
+}

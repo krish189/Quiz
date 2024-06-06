@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome To Krish's Trivia Quiz Game</h1>
+    <div class="box2">
+        <h1>Lets Create User</h1>
+        <form id="createuserform">
+            <input type="text" placeholder="Enter Username" id="cusername" class="input" required><br><br>
+            <input type="password" placeholder="Enter Password" id="cpassword" class="input" required><br><br>
+            <input type="password" placeholder="Renter Same Password" id="rcpassword" class="input" required><br><br>
+            <button id="submitbtn" onclick="submitUser(event)">Submit</button><br><br>
+            <div id="formresult">
+                <h2 id="successtoast">User has been created successfully</h2>
+                <h2 id="failuretoast">Please enter all fields correctly</h2>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
