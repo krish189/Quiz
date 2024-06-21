@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Krish's Trivia Quiz Game</h1>
+    <div class="categorybox">
+       <h1 id="choose">Choose Category</h1>
+       <button class="catlist" onclick="quiz('artliterature')" style="background-image: url('artlit.jpg');background-size: contain;color:white;">Art Literature</button><br><br>
+       <button class="catlist" onclick="quiz('language')" style="background-image: url('lang.jpg');background-size: contain;color: black;">Language</button><br><br>
+       <button class="catlist" onclick="quiz('sciencenature')" style="background-image: url('scinat.png');background-size: cover;color:black;background-repeat: no-repeat;">Science Nature</button><br><br>
+       <button class="catlist" onclick="quiz('general')" style="background-image: url('general.jpg');background-size: cover;color:white;background-repeat: no-repeat;">General</button><br><br>
+       <button class="catlist" onclick="quiz('fooddrink')" style="background-image: url('fooddrink.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Foods/Drinks</button><br><br>
+       <button class="catlist" onclick="quiz('peopleplaces')"  style="background-image: url('peopleplaces.jpg');background-size: cover;color:black;background-repeat: no-repeat;">People/Places</button><br><br>
+       <button class="catlist" onclick="quiz('geography')" style="background-image: url('geography.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Geography</button>
+       <div id="catlist2">
+       <button class="catlist1" onclick="quiz('historyholidays')" style="background-image: url('history.jpg');background-size: contain;color:white;">History/Holidays</button><br>
+       <button class="catlist1" onclick="quiz('entertainment')" style="background-image: url('entertainment.jpg');background-size: cover;color:white;background-repeat: no-repeat;">Entertainment</button><br>
+       <button class="catlist1" onclick="quiz('toysgames')" style="background-image: url('toysgames.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Toys/Games</button><br>
+       <button class="catlist1" onclick="quiz('music')" style="background-image: url('music.jpg');background-size: cover;color:white;background-repeat: no-repeat;">Music</button><br>
+       <button class="catlist1" onclick="quiz('mathematics')" style="background-image: url('math.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Mathematics</button><br>
+       <button class="catlist1" onclick="quiz('religionmythology')" style="background-image: url('religion.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Religion/Mythology</button><br>
+       <button class="catlist1" onclick="quiz('sportsleisure')" style="background-image: url('sports.jpg');background-size: cover;color:black;background-repeat: no-repeat;">Sports/Leisure</button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

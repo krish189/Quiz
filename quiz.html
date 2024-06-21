@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Krish's Trivia Quiz Game</h1>
+    <div class="question">
+        <h1>Question</h1><br><br>
+        <p id="ques"></p><br><br>
+        <h3 id="label">Type the Answer</h3><br><input type="text" id="ans"><br><br>
+        <button id="submit" onclick="submitAnswer()">Submit</button>
+        <!-- <div id="formresult">
+            <h2 id="successtoasta">Your answer is correct</h2>
+            <h2 id="failuretoasta">Your answer is wrong</h2>
+        </div> -->
+    </div>
+    <div class="result">
+        <h1 id="showresult"></h1><br><br>
+        <p id="questions"></p><br><br>
+        <button id="navigateChoose" onclick="navigateCategory()">Choose Category</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        displayquiz();
+    });
+    </script>
+</body>
+</html>

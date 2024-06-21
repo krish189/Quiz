@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome To Krish's Trivia Quiz Game</h1>
+    <div class="box1">
+        <h1>Are You Ready to Test your Knowledge?</h1>
+        <p>This quiz will challenge you with a series of questions on various topics.<br><span class="span1">Answer a series of questions and see how many you can get right!</span></p>
+        <h1>Lets Get Started</h1>
+        <form id="loginform">
+            <input type="text" placeholder="Enter Username" id="username" class="input" required><br><br>
+            <input type="password" placeholder="Enter Password" id="password" class="input" required><br><br>
+            <button id="loginbtn" onclick="login(event)">Login</button><br><br>
+            <!-- <a href="" id="fgp">Forgot Password?</a> -->
+            <h3 id="failuretoast">Please enter all fields correctly</h3>
+            <p id="newuser">Don't have an account? &nbsp;<button id="signup"><a href="create.html" id="create">Create</a></button></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
