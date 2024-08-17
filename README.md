@@ -41,9 +41,9 @@ A responsive trivia quiz application built with HTML, CSS, JavaScript, Node.js, 
    node server.js
   ```
 
-5. Open index.html
-6. Click Create User
-7. Once Created Login and Enjoy Quiz
+5. Open index.html in your browser.
+6. Click Create User.
+7. Once Created Login and Enjoy Quiz.
 
 ### Note on Data Persistence:
 The current implementation does not use a database, so user data and scores are not stored permanently. Data is managed using local storage, which means that once the app is closed, the data will be lost. For persistent storage, consider integrating a database.
