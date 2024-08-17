@@ -23,7 +23,8 @@ A responsive trivia quiz application built with HTML, CSS, JavaScript, Node.js, 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/krish189/Quiz.git ```
+   git clone https://github.com/krish189/Quiz.git
+   ```
 
 2. **Navigate to Project Directory:**
    ```bash
