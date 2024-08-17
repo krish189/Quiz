@@ -46,6 +46,6 @@ A responsive trivia quiz application built with HTML, CSS, JavaScript, Node.js, 
 7. Once Created Login and Enjoy Quiz.
 
 ### Note on Data Persistence:
-The current implementation does not use a database, so user data and scores are not stored permanently. Data is managed using local storage, which means that once the app is closed, the data will be lost. For persistent storage, consider integrating a database.
+The current implementation does not use a database, so user data and scores are not stored permanently. Data is managed using local storage, which means that once the browser is closed, the data will be lost. For persistent storage, consider integrating a database.
 
   
